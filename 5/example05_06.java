@@ -49,7 +49,6 @@ class e05_06
     }
 }
 
-
 class example05_06
 {
     public static void main(String args[])
@@ -66,10 +65,6 @@ class example05_06
         test4.getvalue();
         e05_06 test5=new e05_06(30,41);
         test5.getvalue();
-
-
-
-
     }
 }
 
