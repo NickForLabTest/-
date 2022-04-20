@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.io.*;
 public class example10_3
 {
@@ -11,9 +12,10 @@ public class example10_3
             br=new BufferedReader(new InputStreamReader(new FileInputStream("input.txt")));
             new PrintWriter("output.txt").close();;
             out=new PrintWriter("output.txt");
+
             String s;
             int line=1,count=0;
-
+            ArrayList <String> end= new ArrayList<String>();
             while((s=br.readLine())!=null)
             {
                 String[] arr=s.split(" ",0);
@@ -24,10 +26,14 @@ public class example10_3
                     }
             
                 }
-                System.out.println(line +" line contain "+count+" word");
+                end.add(line +" line contain "+count+" word");
                 count=0;
                 line++;
 
+            }
+            for(var h:end)
+            {
+                out.println(h);
             }
         }
         catch (IOException e) {System.out.println(e);}

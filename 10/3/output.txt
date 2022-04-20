@@ -50,3 +50,8 @@ too -line: 5
 sick -line: 5
 to -line: 5
 cook. -line: 5
+1 line contain 11 word
+2 line contain 2 word
+3 line contain 14 word
+4 line contain 11 word
+5 line contain 14 word
