@@ -1,0 +1,12 @@
+Name: Green Mile
+Country: Russia
+Type: horror
+Date: 25.01.2000
+Cost: 350
+--------------
+Name: World
+Country: Russia
+Type: horror
+Date: 21.01.2121
+Cost: 250
+--------------
